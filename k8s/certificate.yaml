@@ -13,8 +13,8 @@ spec:
     - www.vasanthsumanath.co.in
   acme:
     config:
-      -http01:
-         ingressClass: nginx
+      - http01:
+          ingressClass: nginx
        domains:
          - vasanthsumanath.co.in
          - www.vasanthsumanath.co.in

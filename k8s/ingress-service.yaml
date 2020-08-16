@@ -9,10 +9,10 @@ metadata:
     cert-manager.io/cluster-issuer: "letsencrypt-prod"
 spec:
   tls:
-    -hosts:
-       - vasanthsumanath.co.in
-       - www.vasanthsumanath.co.in
-     secretName: vasanthsumanath-co-in
+    - hosts:
+        - vasanthsumanath.co.in
+        - www.vasanthsumanath.co.in
+      secretName: vasanthsumanath-co-in
   rules:
     - host: vasanthsumanath.co.in
       http:

@@ -11,10 +11,3 @@ spec:
   dnsNames:
     - vasanthsumanath.co.in
     - www.vasanthsumanath.co.in
-  acme:
-    config:
-      - http01:
-          ingressClass: nginx
-        domains:
-          - vasanthsumanath.co.in
-          - www.vasanthsumanath.co.in
